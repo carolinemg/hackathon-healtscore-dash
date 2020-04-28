@@ -1,4 +1,4 @@
-const Kpi = require('../models/Kpi');
+const Kpi = require('../models/kpi');
 
 const KpiController = {
   async find(req, res) {
