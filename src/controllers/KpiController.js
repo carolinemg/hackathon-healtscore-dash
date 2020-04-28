@@ -5,9 +5,7 @@ const KpiController = {
     try {
 			kpis = await Kpi.getKpi();
 			
-			
-      
-      res.render('index', { title: 'Express' });
+			res.render('index', { title: 'Express' });
     } catch (error) {
       res.status(500).send(error);
     }
